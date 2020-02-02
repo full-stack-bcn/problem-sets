@@ -40,7 +40,10 @@ The browser inspector
    * What about the magnifying glass on the left?
    * Does Google use a ``footer`` element on the bottom and if not, what is it?
 
-2. Go to the ["Why Choose React" page](https://www.quora.com/Why-choose-React) 
+2. Download the image used in [this degree page](https://www.talent.upc.edu/cat/estudis/formacio/curs/313400/postgrau-full-stack-web-technologies/)
+   as background.
+
+3. Go to the ["Why Choose React" page](https://www.quora.com/Why-choose-React) 
    on Quora on a browser and from there navigate to other pages. At some
    point Quora shows a login box (*"By continuing, I agree that I am..."*)
    and behind it the article you were trying to see is visible but the text is
@@ -52,11 +55,12 @@ The browser inspector
    "``ContentWrapper``") and look for the CSS ``filter`` property with the
    "blur" and uncheck it to make the text readable. Yay!
 
-3. Go to 
+4. Go to 
    [this Minidosis page](http://www.minidosis.org/#/actividades/Cpp.Funciones.Binomial.doc), 
    and check how much text it has. Now look at the HTML code of the page (Ctrl+U)
    and search with Ctrl+F for pieces of the text you have seen. What is going
    on? How can you explain it?
+
 
 The browser console
 -------------------

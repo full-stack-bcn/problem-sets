@@ -1,5 +1,5 @@
 
-Colección de Ejercicios para el Posgrado de Full-Stack Web Technologies
+Problem Sets for the Postgraduate Degree in Full-Stack Web Technologies
 -----------------------------------------------------------------------
 
 Work in progress...

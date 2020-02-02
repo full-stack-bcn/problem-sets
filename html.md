@@ -65,10 +65,9 @@ The browser inspector
 The browser console
 -------------------
 
-1. By using the ``document`` object in the browser console, show an array of 
-   all links in some page you like (a short one preferably).
-
-   Try to use Javascript to change the background color of all links to yellow.
+1. By using the ``document`` object in the browser console, show an array of all
+   links in some page you like (a short one preferably). If you dare, try to use
+   Javascript to change the background color of all links to yellow.
 
 Forms
 -----

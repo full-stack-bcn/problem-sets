@@ -158,12 +158,11 @@ Array Functional Methods
 Mini-projects
 -------------
 
-1. Write a function that receives a number and returns the spelling of the
-   number in English (or Spanish, or Catalan). Examples
+1. Write a function that receives an integer N and returns the spelling of N
+   in English (or Spanish, or Catalan). Examples
    ```
    say(19) => "nineteen"
    say(42) => "Forty-two"
    say(100) => "One hundred"
    say(467889) => "Four hundred sixty-seven thousand eight hundred eighty-nine"
    ```
-

@@ -21,7 +21,8 @@ Basic CSS
 Styling snippets
 ----------------
 
-1. Copy this page to a file ``login-form.html`` and style it so that the input boxes are aligned
+1. Copy this page to a file called ``login-form.html`` and style it so that the
+   input boxes are aligned
    ```html
    <!doctype html>
    <html>

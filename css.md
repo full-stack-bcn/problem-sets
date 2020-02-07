@@ -13,6 +13,11 @@ Basic CSS
 
 3. Make an HTML page which looks like a chess board. (It is forbidden to use ``table``s!)
 
+4. Write a page with a very big text exactly centered in the middle of the page.
+   Resize the browser and check that it stays perfectly centered.
+
+
+
 Styling snippets
 ----------------
 
@@ -30,14 +35,28 @@ Styling snippets
    </html>
    ```
 
-2. 
+The following series of exercises require you to first download the source of
+the [HTML 5 Test Page](https://cbracco.github.io/html5-test-page/). Now add a
+style sheet to this page and use it to solve the following exercises:
+
+1. Set the font for the whole page to be "Sans-serif".
+
+2. Change ``h2`` headings inside ``article``s to be underlined.
+
+3. Distribute the links in the ``nav`` section horizontally (using *flexbox*).
+
+4. Put a border around ``blockquote``.
+
+5. Change all links to the top so that they have a border when the mouse hovers
+   above them.
 
 
-Styling pages
--------------
+
+Styling whole pages
+-------------------
 
 1. Download the HTML file from [CSS Zen Garden](http://csszengarden.com) and
    style it. (Do not take inspiration from existing designs.)
 
-
-
+2. Work on styles for the whole 
+   [HTML 5 TestPage](https://cbracco.github.io/html5-test-page/).

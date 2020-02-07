@@ -11,8 +11,10 @@ Basic CSS
    a footer at the bottom with information like the Copyright, "about",
    "contact", etc.
 
-Styling samples
----------------
+3. Make an HTML page which looks like a chess board. (It is forbidden to use ``table``s!)
+
+Styling snippets
+----------------
 
 1. Copy this page to a file ``login-form.html`` and style it so that the input boxes are aligned
    ```html
@@ -27,6 +29,15 @@ Styling samples
      </body>
    </html>
    ```
+
+2. 
+
+
+Styling pages
+-------------
+
+1. Download the HTML file from [CSS Zen Garden](http://csszengarden.com) and
+   style it. (Do not take inspiration from existing designs.)
 
 
 

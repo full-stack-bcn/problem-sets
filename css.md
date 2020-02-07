@@ -40,15 +40,15 @@ The following series of exercises require you to first download the source of
 the [HTML 5 Test Page](https://cbracco.github.io/html5-test-page/). Now add a
 style sheet to this page and use it to solve the following exercises:
 
-1. Set the font for the whole page to be "Sans-serif".
+2. Set the font for the whole page to be "Sans-serif".
 
-2. Change ``h2`` headings inside ``article``s to be underlined.
+3. Change ``h2`` headings inside ``article``s to be underlined.
 
-3. Distribute the links in the ``nav`` section horizontally (using *flexbox*).
+4. Distribute the links in the ``nav`` section horizontally (using *flexbox*).
 
-4. Put a border around ``blockquote``.
+5. Put a border around ``blockquote``.
 
-5. Change all links to the top so that they have a border when the mouse hovers
+6. Change all links to the top so that they have a border when the mouse hovers
    above them.
 
 

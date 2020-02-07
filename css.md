@@ -59,5 +59,5 @@ Styling whole pages
 1. Download the HTML file from [CSS Zen Garden](http://csszengarden.com) and
    style it. (Do not take inspiration from existing designs.)
 
-2. Work on styles for the whole 
+2. Work on a style for the whole 
    [HTML 5 TestPage](https://cbracco.github.io/html5-test-page/).

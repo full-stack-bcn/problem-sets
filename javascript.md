@@ -52,6 +52,10 @@ Basic Javascript
    77.125
    ```
 
+6. By using ``document.createElement`` and ``document.body.appendChild``, create
+   an HTML page which at loading time adds 100 paragraphs to the ``<body>`` each
+   one with the text "This is paragraph N", N being its index.
+
 Arrays
 ------
 

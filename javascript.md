@@ -100,7 +100,16 @@ Arrays
    Write a function that receives an integer length N as a parameter and
    produces the "FizzBuzz" array of length N.
 
-   
+8. Write a function ``range(a, b)`` that receives two integers and produces an
+   array with the consecutive numbers starting at ``a`` but excluding ``b``. For
+   instance, ``range(4, 10)`` produces ``[4, 5, 6, 7, 8, 9]``.
+
+9. Write a function that receives an array of arrays of numbers, such as 
+   ``[[1, 2, 3], [100, 10], [-5, -7]]`` and returns an array with the minimum 
+   values in each array, that is: ``[1, 10, -7]``.
+
+10. Write a function that receives two arrays ``A`` and ``B`` and returns an
+    array with the elements in ``A`` that are not present in ``B``.
 
 Objects
 -------

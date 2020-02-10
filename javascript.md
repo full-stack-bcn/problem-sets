@@ -197,6 +197,19 @@ Array Functional Methods
    function myFindIndex(array, fn) { /* ... */ }
    ```
 
+DOM
+---
+
+1. Generate the following HTML element programmatically in Javascript and add it
+   to the ``<body>`` of the page
+   ```html
+   <div class="user">
+      <img href="/png/bond.png">
+      <span class="name">James Bond</span>
+   </div>
+   ```
+   Check with the Browser inspector that the structure is correct.
+
 
 Mini-projects
 -------------

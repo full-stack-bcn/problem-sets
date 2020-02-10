@@ -56,6 +56,7 @@ Basic Javascript
    an HTML page which at loading time adds 100 paragraphs to the ``<body>`` each
    one with the text "This is paragraph N", N being its index.
 
+
 Arrays
 ------
 
@@ -87,6 +88,19 @@ Arrays
 6. Write a function ``firstNonRepeated`` that receives a string like
    ``"aabbcdddeffgh"`` and returns the first letter in the string which doesn't
    have consecutive repetitions. 
+
+7. In the game of Fizz Buzz, kids take turns in saying the natural numbers, but
+   when a number is divisible by 3, they say "Fizz", when the number is
+   divisible by 5 they say "Buzz", and when the number is divisible by 3 and 5
+   they say "Fizz Buzz". If you put the consecutive responses (either an integer
+   or a string) in an array it would look like:
+   ```js
+   [1, 2, "Fizz", 4, "Buzz", "Fizz", 7, 8, "Fizz", "Buzz", 11, "Fizz", 13, 14, "FizzBuzz", ...]
+   ```
+   Write a function that receives an integer length N as a parameter and
+   produces the "FizzBuzz" array of length N.
+
+   
 
 Objects
 -------

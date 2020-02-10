@@ -72,6 +72,22 @@ Arrays
    let fileContent = fs.readFileSync('some_data.csv').toString()
    ```
 
+3. Write a function ``appearances`` which receives an array of strings ``A`` (a
+   list of words) and a string ``w`` (a word), and returns how many times ``w``
+   appears in ``A``.
+
+4. Write a function ``reverse`` which receives an array and returns a new array
+   with the same elements in reverse order. If the input array is ``[1, 2, 3, 4, 5]``, 
+   the function should return ``[5, 4, 3, 2, 1]``.
+
+5. Write a function ``aboveAverage`` that receives an array of numbers and
+   returns the fraction (between 0.0 and 1.0) of numbers in the array the are
+   greater than the average of the array.
+
+6. Write a function ``firstNonRepeated`` that receives a string like
+   ``"aabbcdddeffgh"`` and returns the first letter in the string which doesn't
+   have consecutive repetitions. 
+
 Objects
 -------
 

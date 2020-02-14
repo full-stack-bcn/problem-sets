@@ -91,3 +91,8 @@ Forms
    elements to *radio buttons* so that the whole menu is visible all the time
    and you only mark what dishes you want.
 
+DOM APIs
+--------
+
+1. Open a page that you use often and list on the developer console the URLs of
+   all the links found on the page (hint: use ``document.links``).

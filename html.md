@@ -96,3 +96,7 @@ DOM APIs
 
 1. Open a page that you use often and list on the developer console the URLs of
    all the links found on the page (hint: use ``document.links``).
+
+2. Open a page that you use often and show a list on the developer console of
+   the URLs of all images in the page.
+

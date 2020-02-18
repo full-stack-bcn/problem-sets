@@ -69,10 +69,11 @@ The browser console
    links in some page you like (a short one preferably). If you dare, try to use
    Javascript to change the background color of all links to yellow.
 
+
 Forms
 -----
 
-1. Make an HTML page with a search box that does searches on
+1. Make an HTML page with a search box that does searches on 
    [GitHub](http://github.com). Go to GitHub to determine the URL of
   searches and look for the parameter used in searches (you can deduce it from
   the URL). Configure the form to use that parameter and URL.
@@ -100,3 +101,17 @@ DOM APIs
 2. Open a page that you use often and show a list on the developer console of
    the URLs of all images in the page.
 
+
+Mini-projects
+-------------
+
+1. Find a Word (or LibreOffice) document that you have worked on recently
+   (preferably relatively short but with tables, images, lists, etc.). Rewrite
+   it in HTML (try to match the style but not necessarily too close). Print a
+   copy of the document with the browser. Realize how the web platform is a kind
+   of Word/LibreOffice or "typesetting system". Compare the size of the original
+   document with the size of the HTML file. Compare the ease with which you can
+   distribute this file (and know for sure that the receiver will be able to
+   see it) with Word/LibreOffice.
+
+ 

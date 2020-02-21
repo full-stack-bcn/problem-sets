@@ -1,0 +1,3 @@
+- A simple page showing an image carousel using a free image API 
+  (pixabay, unsplash) that displays full-screen images in succession 
+  (+ fade-in/fade-out animation).

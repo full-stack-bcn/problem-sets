@@ -32,10 +32,10 @@ Git
      and master. Merge these changes in master. Which type of merge is this
      (fast forward or 3 way merge)? Delete the branch once merged.
     
-   * Create an account in [githu.com](github.com). This account will be used during
-     the course (and beyond?). From the Github control panel create a new empty
-     repo and create a clone in your local system called ``wc3``. Use a command
-     to see the details of the origin of ``wc3``.
+   * Create an account in [github.com](https://github.com). This account will be
+     used during the course (and beyond?). From the Github control panel create
+     a new empty repo and create a clone in your local system called ``wc3``.
+     Use a command to see the details of the origin of ``wc3``.
     
    * Change the origin of your ``wc1`` to point to your Github repository and
      push all your changes to this Github repo.

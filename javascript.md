@@ -5,13 +5,24 @@ Javascript
 Basic Javascript
 ----------------
 
-1. Write a program that shows 100 times
+1. Write a Javascript script/program that shows 100 times on the console:
 
    ```
    I feeel good. Na-ra na-ra na-ra na!
    ```
 
-2. Write a program that shows the arguments that you passed:
+2. Write a Javascript script in an HTML document that produces 100 paragraphs with:
+   ```
+   I really know how to generate some DOM, you know?
+   ```
+   The code to create a paragraph and add it to the ``<body>``:
+   ```js
+   let p = document.createElement('p');
+   p.innerText = "a new paragraph";
+   document.body.appendChild(p);
+   ```
+
+2. Write a NodeJS program that shows the arguments that you passed:
    
    ```
    $ node show-args.js first second " third " 
@@ -20,7 +31,7 @@ Basic Javascript
    Argument[2] = " third "
    ```
 
-3. Write a program that produces the sum of its arguments:
+3. Write a NodeJS program that produces the sum of its arguments:
 
    ```
    $ node sum-args.js 1 2 3 4

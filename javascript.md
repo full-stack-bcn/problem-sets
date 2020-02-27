@@ -11,18 +11,16 @@ Basic Javascript
    I feeel good. Na-ra na-ra na-ra na!
    ```
 
-2. Write a Javascript script in an HTML document that produces 100 paragraphs with:
-   ```
-   I really know how to generate some DOM, you know?
-   ```
-   The code to create a paragraph and add it to the ``<body>``:
+1. Write a Javascript script in an HTML document that produces 100 paragraphs
+   with the text "I really know how to generate some DOM, you know?". To create
+   a paragraph and add it to the ``<body>`` use code analogous to:
    ```js
    let p = document.createElement('p');
    p.innerText = "a new paragraph";
    document.body.appendChild(p);
    ```
 
-2. Write a NodeJS program that shows the arguments that you passed:
+1. Write a NodeJS program that shows the arguments that you passed:
    
    ```
    $ node show-args.js first second " third " 
@@ -31,7 +29,7 @@ Basic Javascript
    Argument[2] = " third "
    ```
 
-3. Write a NodeJS program that produces the sum of its arguments:
+1. Write a NodeJS program that produces the sum of its arguments:
 
    ```
    $ node sum-args.js 1 2 3 4
@@ -40,7 +38,7 @@ Basic Javascript
    NaN
    ```
 
-4. Write a program that draws a triangle like the one below given the height
+1. Write a program that draws a triangle like the one below given the height
    as an argument (using ``for`` and then using ``while``):
 
    ```
@@ -52,7 +50,11 @@ Basic Javascript
    *****
    ```
 
-5. Write a program that receives 2 operands and an operation and produces the result:
+1. By using ``document.createElement`` and ``document.body.appendChild``, create
+   an HTML page which at loading time adds 100 paragraphs to the ``<body>`` each
+   one with the text "This is paragraph N", N being its index.
+
+1. Write a program that receives 2 operands and an operation and produces the result:
 
    ```
    $ node expr.js 15 + 14
@@ -63,9 +65,12 @@ Basic Javascript
    77.125
    ```
 
-6. By using ``document.createElement`` and ``document.body.appendChild``, create
-   an HTML page which at loading time adds 100 paragraphs to the ``<body>`` each
-   one with the text "This is paragraph N", N being its index.
+1. Write an HTML document that is a calculator (with all buttons and operations,
+   etc). Implement the basic arithmetic operations, like in a calculator, as
+   well as the "C" key (which erases pending operations and clear the number).
+
+1. Write a document with many elements in the body and remove the first 5 from
+   it using a script. (The ``remove`` method removes it from the DOM.)
 
 
 Arrays

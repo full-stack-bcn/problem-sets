@@ -259,3 +259,28 @@ Promises
       }
    }
    ```
+
+3. Using the [News API](https://newsapi.org), retrieve the associated photos of
+   the top headlines. Use [``axios``](https://github.com/axios/axios) to do all requests:
+
+   1. First register on the News API website to get an API key (it's easy).
+
+   2. Write a script to retrieve the JSON information about the 
+      [top headlines](https://newsapi.org/docs/endpoints/top-headlines) for Spain.
+
+   3. Download the image of a single news article (taken form the ``urlToImage`` field)
+      using code like this
+      ```js
+      axios({
+         method: "get",
+         url: "https://someurl.com/myfile.jpg",
+         responseType: "stream"
+      }).then(function (response) {
+         response.data.pipe(fs.createWriteStream("/my/dir/downloaded.jpg"));
+      });
+      ```
+      The ``fs`` package is internal to NodeJS (no need to install).
+      
+   4. Create an array of Promises to retrieve all photos at in parallel, using
+      ``Promise.all``.
+

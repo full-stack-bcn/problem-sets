@@ -242,14 +242,14 @@ Mini-projects
 Promises
 --------
 
-1. Rewrite the following function to use ``Promise``s:
+1. Rewrite the following function using ``Promise``s:
    ```js
    function add(a, b) {
       return a + b;
    }
    ```
 
-2. Rewrite the following function to use ``Promise``s:
+2. Rewrite the following function using ``Promise``s:
    ```js
    function squareRoot(x) {
       if (x >= 0) {

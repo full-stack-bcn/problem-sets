@@ -269,11 +269,11 @@ Promises
       [top headlines](https://newsapi.org/docs/endpoints/top-headlines) for Spain.
 
    3. Download the image of a single news article (taken form the ``urlToImage`` field)
-      using code like this
+      using code like this:
       ```js
       axios({
          method: "get",
-         url: "https://someurl.com/myfile.jpg",
+         url: "https://someurl.com/some-file.jpg",
          responseType: "stream"
       }).then(function (response) {
          response.data.pipe(fs.createWriteStream("/my/dir/downloaded.jpg"));

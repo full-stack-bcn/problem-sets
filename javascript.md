@@ -238,3 +238,24 @@ Mini-projects
    say(100) => "One hundred"
    say(467889) => "Four hundred sixty-seven thousand eight hundred eighty-nine"
    ```
+
+Promises
+--------
+
+1. Rewrite the following function to use ``Promise``s:
+   ```js
+   function add(a, b) {
+      return a + b;
+   }
+   ```
+
+2. Rewrite the following function to use ``Promise``s:
+   ```js
+   function squareRoot(x) {
+      if (x >= 0) {
+         return Math.sqrt(x);
+      } else {
+         return { error: "'x' must be positive" };
+      }
+   }
+   ```

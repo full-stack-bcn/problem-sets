@@ -1,3 +1,15 @@
 - A simple page showing an image carousel using a free image API 
   (pixabay, unsplash) that displays full-screen images in succession 
   (+ fade-in/fade-out animation).
+
+Not-so-simple examples of Redux
+
+- Paginator:
+  - Redux state is the list of entities shown, plus loading state.
+    (number of pages, etc are selectors).
+  - The API is called in pages, using thunk, and either on clicking a "more"
+    button or just on render.
+
+- Search Engine:
+  - The search term and any changes to it are managed in Redux,
+    plus loading state. There is debouncing of API calls to search.

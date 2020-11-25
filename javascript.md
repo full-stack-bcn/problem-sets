@@ -159,7 +159,7 @@ Objects
    Your name is James Bond and you are 27 years old.
    ```
 
-2. Write a function ``transpose`` that receives an array of objects such as
+1. Write a function ``transpose`` that receives an array of objects such as
    ```js
    [{ user: 'jlopez', password: '1234' }, 
     { user: 'pacof',  password: 'abcd' }]
@@ -170,7 +170,7 @@ Objects
    { users: ['jlopez', 'pacof'], passwords: ['1234', 'abcd'] }
    ```
 
-3. Convert a CSV file such as:
+1. Convert a CSV file such as:
    ```
    name;age;weight
    james;27;85
@@ -185,12 +185,8 @@ Objects
    ```
    (In the CSV, the header indicates the names of the fields, the following lines are the objects.)
 
-4. Write the inverse conversion as the last problem, from JSON to CSV.
+1. Write the inverse conversion as the last problem, from JSON to CSV.
 
-5. Write a "scheduler". A scheduler is given a list of tasks, where each task is described by the
-   number of hours to complete, its name and the tasks it depends on. Given the number of work
-   hours in a day, the scheduler will output the tasks (or parts of tasks) in order for each day,
-   also showing the total number of days the whole project will take.
 
 Array Functional Methods
 ------------------------
@@ -198,21 +194,21 @@ Array Functional Methods
 1. Write a function ``count`` that, given an array of numbers and a callback,
    counts the number of items for which the callback returns ``true``.
 
-2. Implement two functions, ``map`` and ``filter`` (receiving
+1. Implement two functions, ``map`` and ``filter`` (receiving
    an array and a callback), in terms of ``forEach``.
 
-3. Likewise, implement ``find`` in terms of ``filter`` (ignore efficiency!).
+1. Likewise, implement ``find`` in terms of ``filter`` (ignore efficiency!).
 
-4. Implement ``some`` and ``every`` in terms of ``map`` and ``filter``.
+1. Implement ``some`` and ``every`` in terms of ``map`` and ``filter``.
 
-5. Write a function ``singles`` that, given an array of numbers, returns a new
+1. Write a function ``singles`` that, given an array of numbers, returns a new
    array containing only the values of the original array that appear only once.
    Implement it in terms of ``filter``.
 
-6. Write a function ``uniq`` that, given an array of numbers, removes
+1. Write a function ``uniq`` that, given an array of numbers, removes
    consecutive repetitions of values. Implement it in terms of ``reduce``.
 
-7. What do these functions do?
+1. What do these functions do?
    ```js
    const f1 = n => [...`${n}`].map(i => parseInt(i))
 
@@ -225,19 +221,19 @@ Array Functional Methods
    const f5 = (A) => [].concat(...A)
    ```
 
-8. Sort an array of objects such as 
+1. Sort an array of objects such as 
    ```js
    { name: 'Fernando', lastname: 'Rodríguez', age: 39 }
    ```
    by lastname
 
-9. Write the ``findIndex`` method as a function
+1. Write the ``findIndex`` method as a function
    ```js
    function myFindIndex(array, fn) { /* ... */ }
    ```
 
-10. Write a function ``rotateArray(array, n)`` which rotates an array by n positions. 
-    For example: ``rotateArray([1, 2, 3, 4, 5], 2)`` will return ``[4, 5, 1, 2, 3]``.
+1. Write a function ``rotateArray(array, n)`` which rotates an array by n positions. 
+   For example: ``rotateArray([1, 2, 3, 4, 5], 2)`` will return ``[4, 5, 1, 2, 3]``.
 
 DOM
 ---
@@ -264,6 +260,11 @@ Mini-projects
    say(100) => "One hundred"
    say(467889) => "Four hundred sixty-seven thousand eight hundred eighty-nine"
    ```
+
+1. Write a "scheduler". A scheduler is given a list of tasks, where each task is described by a
+   name, the number of hours to complete, and the tasks it depends on (which are to be completed
+   first). Given the number of work hours in a day, the scheduler will output the tasks (or parts of
+   tasks) in order for each day, also showing the total number of days the whole project will take.
 
 Promises
 --------

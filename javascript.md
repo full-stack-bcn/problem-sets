@@ -72,6 +72,9 @@ Basic Javascript
 1. Write a document with many elements in the body and remove the first 5 from
    it using a script. (The ``remove`` method removes it from the DOM.)
 
+1. Write a function that receives an integer from 1 to 1000 and it converts it 
+   to a Roman Numeral.
+
 
 Arrays
 ------
@@ -126,6 +129,10 @@ Arrays
 
 10. Write a function that receives two arrays ``A`` and ``B`` and returns an
     array with the elements in ``A`` that are not present in ``B``.
+
+11. Write a function that receives two strings and returns ``true`` if they are
+    [anagrams](https://en.wikipedia.org/wiki/Anagram). Two Spanish words that are anagrams are
+    "esponja" and "japones" (accents/tildes are not taken into account).
 
 Objects
 -------
@@ -212,6 +219,9 @@ Array Functional Methods
    ```js
    function myFindIndex(array, fn) { /* ... */ }
    ```
+
+10. Write a function ``rotateArray(array, n)`` which rotates an array by n positions. 
+    For example: ``rotateArray([1, 2, 3, 4, 5], 2)`` will return ``[4, 5, 1, 2, 3]``.
 
 DOM
 ---

@@ -81,7 +81,8 @@ Arrays
 
 1. Write the following functions which receive an array:
    * ``largest`` returns the largest element in the array.
-   * ``trim`` returns a copy of the array without the first and last elements.
+   * ``trim`` returns a copy of the array removing elements at the beginning or end which are
+     ``null``.
    * ``arraySum`` returns the sum of the elements.
 
 1. Write a program that produces the sum of each column in a CSV file.
@@ -165,7 +166,7 @@ Objects
     { user: 'pacof',  password: 'abcd' }]
    ```
    and returns an object with two fields ``users`` and ``passwords`` containing
-   all the users and all the psswords collected together
+   all the users and all the passwords collected together
    ```js
    { users: ['jlopez', 'pacof'], passwords: ['1234', 'abcd'] }
    ```

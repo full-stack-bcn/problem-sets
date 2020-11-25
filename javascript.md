@@ -84,7 +84,7 @@ Arrays
    * ``trim`` returns a copy of the array without the first and last elements.
    * ``arraySum`` returns the sum of the elements.
 
-2. Write a program that produces the sum of each column in a CSV file.
+1. Write a program that produces the sum of each column in a CSV file.
    To read the file:
 
    ```js
@@ -92,23 +92,23 @@ Arrays
    let fileContent = fs.readFileSync('some_data.csv').toString()
    ```
 
-3. Write a function ``appearances`` which receives an array of strings ``A`` (a
+1. Write a function ``appearances`` which receives an array of strings ``A`` (a
    list of words) and a string ``w`` (a word), and returns how many times ``w``
    appears in ``A``.
 
-4. Write a function ``reverse`` which receives an array and returns a new array
+1. Write a function ``reverse`` which receives an array and returns a new array
    with the same elements in reverse order. If the input array is ``[1, 2, 3, 4, 5]``, 
    the function should return ``[5, 4, 3, 2, 1]``.
 
-5. Write a function ``aboveAverage`` that receives an array of numbers and
+1. Write a function ``aboveAverage`` that receives an array of numbers and
    returns the fraction (between 0.0 and 1.0) of numbers in the array the are
    greater than the average of the array.
 
-6. Write a function ``firstNonRepeated`` that receives a string like
+1. Write a function ``firstNonRepeated`` that receives a string like
    ``"aabbcdddeffgh"`` and returns the first letter in the string which doesn't
    have consecutive repetitions. 
 
-7. In the game of Fizz Buzz, kids take turns in saying the natural numbers, but
+1. In the game of Fizz Buzz, kids take turns in saying the natural numbers, but
    when a number is divisible by 3, they say "Fizz", when the number is
    divisible by 5 they say "Buzz", and when the number is divisible by 3 and 5
    they say "Fizz Buzz". If you put the consecutive responses (either an integer
@@ -119,20 +119,32 @@ Arrays
    Write a function that receives an integer length N as a parameter and
    produces the "FizzBuzz" array of length N.
 
-8. Write a function ``range(a, b)`` that receives two integers and produces an
+1. Write a function ``range(a, b)`` that receives two integers and produces an
    array with the consecutive numbers starting at ``a`` but excluding ``b``. For
    instance, ``range(4, 10)`` produces ``[4, 5, 6, 7, 8, 9]``.
 
-9. Write a function that receives an array of arrays of numbers, such as 
+1. Write a function that receives an array of arrays of numbers, such as 
    ``[[1, 2, 3], [100, 10], [-5, -7]]`` and returns an array with the minimum 
    values in each array, that is: ``[1, 10, -7]``.
 
-10. Write a function that receives two arrays ``A`` and ``B`` and returns an
+1. Write a function ``duplicate`` which receives an array and an integer ``n`` and returns a new
+   array with ``n`` concatenated copies of the original array.
+
+1. Write a function that receives two arrays ``A`` and ``B`` and returns an
     array with the elements in ``A`` that are not present in ``B``.
 
-11. Write a function that receives two strings and returns ``true`` if they are
+1. Write a function that receives two strings and returns ``true`` if they are
     [anagrams](https://en.wikipedia.org/wiki/Anagram). Two Spanish words that are anagrams are
     "esponja" and "japones" (accents/tildes are not taken into account).
+
+1. Write a function that receives a string and reverses all the vowels in the string:
+    ``reverseVowels("I love burritos")`` gives ``"o livu berrotIs``.
+
+1. Given an array of integers (let's call it ``x``), calculate the percentage for the 
+    number of positive integers, negative integers, and zeros in ``x``.
+
+1. Write a function that receives an array of numbers, and returns the 
+    [median](https://en.wikipedia.org/wiki/Median).
 
 Objects
 -------
@@ -175,6 +187,10 @@ Objects
 
 4. Write the inverse conversion as the last problem, from JSON to CSV.
 
+5. Write a "scheduler". A scheduler is given a list of tasks, where each task is described by the
+   number of hours to complete, its name and the tasks it depends on. Given the number of work
+   hours in a day, the scheduler will output the tasks (or parts of tasks) in order for each day,
+   also showing the total number of days the whole project will take.
 
 Array Functional Methods
 ------------------------

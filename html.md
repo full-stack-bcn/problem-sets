@@ -29,6 +29,13 @@ Tags
    | Lists      | ``ul``, ``ol``, ``li``                                              |
    | Tables     | ``table``, ``thead``, ``tbody``, ``tr``, ``th``, ``td``             |
 
+4. Create a page for your day to day bookmarks. Make sections in it and set it as 
+   your default page (in Chrome, set the home page to ``file:///home/yourself/home.html ``, or the file you have created).
+
+5. Edit a very simple SVG (with Inkscape or Illustrator), or find one at 
+   [SVG Repo](https://www.svgrepo.com/) and embed its code into an HTML file.
+
+
 
 The browser inspector
 ---------------------
@@ -66,28 +73,50 @@ The browser console
 -------------------
 
 1. By using the ``document`` object in the browser console, show an array of all
-   links in some page you like (a short one preferably). If you dare, try to use
+   links in some page you like (a short one preferably). Try to use
    Javascript to change the background color of all links to yellow.
+
+2. You want to print the article 
+   [Beware The Man Of One Study](https://slatestarcodex.com/2014/12/12/beware-the-man-of-one-study/) 
+   from Slate Star Codex, but the comments are so long that the PDF is mostly
+   comments. Find the ``div`` containing the comments, remove it, and print
+   the article again.
+
+3. Produce a Tweet from Jeff Bezos saying "Tomorrow, I will donate all my 
+   fortune to poor people": go to Twitter, find Jeff Bezos and edit the 
+   elements in one of his tweets to have the content you want. 
+   Take a screenshot and share on social media immediately.
+
+
 
 
 Forms
 -----
 
-1. Make an HTML page with a search box that does searches on 
-   [GitHub](http://github.com). Go to GitHub to determine the URL of
-  searches and look for the parameter used in searches (you can deduce it from
-  the URL). Configure the form to use that parameter and URL.
+1. Make an HTML page with a title and a text input. Every time you change the
+   text in the input box, the title should display it. Use the text input's 
+   [change event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event).
 
-2. Write a form to register a user with the following data: name, lastname, age,
+2. Make an HTML page with a search box that does searches on 
+   [GitHub](http://github.com). Go to GitHub to determine the URL of
+   searches and look for the parameter used in searches (you can deduce it from
+   the URL). Configure the form to use that parameter and URL.
+
+3. Write a form to register a user with the following data: name, lastname, age,
    username, password, and country. The form has the target URL
    ``http://backend.cia.gov`` and should use a ``POST`` method.
 
-3. Write a form to configure a restaurant menu. The menu should have 5 options
+4. Write a simple calculator in HTML. If you press the buttons, it should add
+   those digits to the number. If you press an operation, it keeps the first
+   operand in memory, takes note of the operation and accepts digits for the 
+   second one. When you press "=" it shows the result.
+
+5. Write a form to configure a restaurant menu. The menu should have 5 options
    for the first dish, and 5 more for the second (use ``select`` elements), as
    well as 3 for different desserts. (Use invented dishes for some fun.) Add a
    checkbox that requests coffee after dessert.
 
-4. Add the last exercise to a repository and now introduce the following
+6. Add the last exercise to a repository and now introduce the following
    modification (for which you will do a special commit): Change the select
    elements to *radio buttons* so that the whole menu is visible all the time
    and you only mark what dishes you want.

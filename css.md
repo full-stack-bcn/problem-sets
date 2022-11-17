@@ -67,8 +67,6 @@ Page Elements
    (use [Lorem Ipsum](https://www.lipsum.com/) for some text), which only shows a small
    part, maybe 3 lines or so. Show clearly that the text is incomplete, with dots, a gradient, etc. Whenever you click the paragraph, it should expand. If you click it again, it should go back to the compressed version. Do it changing the classes of the element using the DOM.
 
-5. 
-
 Styling whole pages
 -------------------
 

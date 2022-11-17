@@ -55,17 +55,18 @@
 
    ```js
    [
-     { field: 'name', value: 'James Bond' },
-     { field: 'age', value: 27 },
-     { field: 'agentNum', value: '007' },
-   ]
+     { field: "name", value: "James Bond" },
+     { field: "age", value: 27 },
+     { field: "agentNum", value: "007" },
+   ];
    ```
 
-   returns and object with those fields and values. In the example, the 
+   returns and object with those fields and values. In the example, the
    returned object should be:
 
    ```js
    { name: 'James Bond', age: 27, agentNum: '007' }
    ```
 
-   
+6. Write a function `fieldNames` that returns an array with the names of all  
+   the fields in an object given as the first parameter.

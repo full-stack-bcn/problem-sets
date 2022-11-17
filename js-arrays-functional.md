@@ -52,3 +52,6 @@
 11. Write a function `rotateArray(array, n)` which rotates an array by n
     positions. For example: `rotateArray([1, 2, 3, 4, 5], 2)` will return
     `[4, 5, 1, 2, 3]`.
+
+12. Write a function which filters and array keeping only the elements
+    that have the fields `x` and `y`.
